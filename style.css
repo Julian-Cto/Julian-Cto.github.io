@@ -6,7 +6,10 @@ h2{
   font-size: 18px;
 }
 body {
-  background-color: darkslategrey;
+  background-image: url('photos//americanRiver_day.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   font-family: sans-serif;
   color: wheat;
 }
