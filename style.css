@@ -2,6 +2,7 @@ img {
   border-radius: 90px;
   border: solid 1px;
   object-fit: cover;
+  
 }
 h2{
   font-size: 18px;
@@ -30,7 +31,11 @@ button:hover {
   color: black;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-
+.fa {
+  font-size: 20px;
+  float: left;
+  margin-right: 10px;
+}
 body {
   text-align: center;
 }
