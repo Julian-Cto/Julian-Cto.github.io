@@ -11,7 +11,7 @@ body {
   background-image: url('photos//americanRiver_day.jpg');
   background-position: top;
   background-size: cover;
-  background-color: green;
+  background-color: white;
   font-family: sans-serif;
   color: white;
 }
@@ -62,7 +62,7 @@ body {
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  margin-left: -60px;
+  margin-left: -42px;
   opacity: 0;
   transition: opacity 1s;
 }

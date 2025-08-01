@@ -1,7 +1,6 @@
 <!doctype html>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="myScript.js"></script> 
-<title> Julian's linktree</title>
+<title> Julian's link tree</title>
 <html>
   <head> <link href="style.css" rel="stylesheet"/></head>
   <body>
@@ -17,7 +16,8 @@
       Linkedin</button><br>
   <button class="socialButtons" id="emailButton"onclick="window.location.href='mailto: juliancerrato1@gmail.com'">
     <div class="fa fa-envelope"></div>
-      Gmail</button><button class="fa fa-copy"> 
+      Gmail</button><button onclick="emailToClipboard()" class="fa fa-copy"> 
         <span id="toolTipText">copy email</span></button>
+        <script src="myScript.js"></script> 
   </body>
 </html>
