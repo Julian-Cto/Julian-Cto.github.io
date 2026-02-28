@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title> Julian's link tree</title>
 <html>
-  <head> <link href="style.css" rel="stylesheet"/></head>
+  <head> <link href="style.css" rel="stylesheet"/><script defer src="myScript.js"></script></head>
   <body class="gradient-background">
   <img src="photos//Me_in_Yose.png" height="100" width="100">
   <h1>Julian Cerrato</h1>
@@ -13,10 +13,8 @@
   <button class="socialButtons" onclick="window.location.href='https://www.linkedin.com/in/julian-cerrato-77a237201'">
     <div class="fa fa-linkedin"></div>
       Linkedin</button><br>
-  <button class="socialButtons" id="emailButton"onclick="window.location.href='mailto: juliancerrato1@gmail.com'">
-    <div class="fa fa-envelope"></div>
-      Gmail</button><button onclick="emailToClipboard()" class="fa fa-copy"> 
-        <span id="toolTipText">copy email</span></button>
-        <script src="myScript.js"></script> 
+  <button class="socialButtons" id="emailButton"onclick="emailToClipboard()">
+    <div class="fa fa-envelope"></div><span id="toolTipText">copy email</span>
+      Gmail</button>
   </body>
 </html>

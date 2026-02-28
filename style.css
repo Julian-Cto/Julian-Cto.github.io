@@ -51,10 +51,6 @@ button{
   float: left;
   margin-right: 10px; }
 
-#emailButton {
-  float: none;
-  margin-left: 43px; }
-
 .fa.fa-copy {
   font-size: 20px;
   float: none;
@@ -64,15 +60,16 @@ button{
   color: white;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
-.fa.fa-copy #toolTipText {
+.socialButtons #toolTipText {
   visibility: hidden;
   font-size: 15px;
-  width: 85px;
+  width: 90px;
   background-color: white;
   border-color: black;
   color: black;
   text-align: center;
-  bottom: 50%;
+  bottom: 27%;
+  right:46%;
   margin-left: -42px;
   border-radius: 4px;
   padding: 5px 0;
@@ -80,14 +77,11 @@ button{
   z-index: 1;
   opacity: 0;
   transition: opacity 1s; }
-
-.fa.fa-copy:hover #toolTipText {
+.socialButtons:hover #toolTipText {
   visibility: visible;
   opacity: 1; }
-
-.fa.fa-copy:hover {
+.socialButtons:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); }
-
 body {
   text-align: center; }
 
