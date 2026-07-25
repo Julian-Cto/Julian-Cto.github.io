@@ -85,3 +85,27 @@ button{
 body {
   text-align: center; }
 
+@media (max-width: 600px) {
+  body {
+    padding: 0 12px;
+  }
+
+  img {
+    height: 80px;
+    width: 80px;
+    margin-top: 40px;
+  }
+
+  .socialButtons {
+    width: 100%;
+    max-width: 320px;
+    padding: 14px 16px;
+    font-size: 18px;
+  }
+
+  .fa {
+    float: none;
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
